@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Main Page</title>
+  <title>Personal Information</title>
   <style>
     body {
       background-color: #F8EDEB; 
@@ -50,16 +50,46 @@
     button:hover {
       background-color: #E4572E; 
     }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .personal-info {
+      background-color: #f4f4f4;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
   </style>
 </head>
 <body>
-  <div class="navigation-bar">
-    <img src="obmc (2).png">
-    <input type="text" placeholder="Search...">
+ <div class="navigation-bar">
+  <img src="obmc (2).png">
+  <div>
+    <button onclick="window.location.href = 'https://drive.google.com/drive/folders/1BsSbPKe1_IEvy2Bg4Abc_Vbte06URwZZ';">First Quarter</button>
+    <button onclick="window.location.href = 'https://drive.google.com/drive/folders/10Wkmp2gUR2m6XErEI_w1QDCKAwWqx7Ec';">Second Quarter</button>
+    <button onclick="window.location.href = 'https://070109.github.io/LP_ICT9R_Q3Project_SanAntonio_Sebastian.github.io/';">Third Quarter</button>
   </div>
-  <h1>Portfolio</h1>
-  <button onclick="window.location.href = 'https://drive.google.com/drive/folders/1BsSbPKe1_IEvy2Bg4Abc_Vbte06URwZZ';">First Quarter</button>
-  <button onclick="window.location.href = 'https://drive.google.com/drive/folders/10Wkmp2gUR2m6XErEI_w1QDCKAwWqx7Ec';">Second Quarter</button>
-  <button onclick="window.location.href = 'index.html'; alert('You have been logged out.');">Log Out</button>
+  <input type="text" placeholder="Search...">
+</div>
+<div class="personal-info">
+  <div style="display: flex; align-items: center;">
+    <img src="remove.png" style="border-radius: 50%; width: 150px; height: 150px; margin-right: 20px;">
+    <div>
+      <h2 style="margin-bottom: 10px;">Personal Information</h2>
+      <p><strong>Name:</strong> Tyler San Antonio</p>
+      <p><strong>Grade and Section:</strong> -9-Ruby</p>
+      <p><strong>Overview:</strong> This portfolio shows my ICT projects from 1st-3rd quarter.</p>
+    </div>
+  </div>
+</div>
+<textarea placeholder="Suggestions..." style="width: 300px; height: 100px;"></textarea>
+<button onclick="window.location.href = 'index.html'; alert('You have been logged out.');">Log Out</button>
 </body>
 </html>
